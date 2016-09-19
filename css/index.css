@@ -1,0 +1,133 @@
+body,html{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.left_navigation h1 img{
+	width: 100%;
+	height: 100%;
+}
+.main{
+	width: 100%;
+	height: 100%;
+}
+.left_navigation{
+	width: 15%;
+	height: 100%;
+	background: rgb(34,34,34);
+	position: relative;
+	float: left;
+}
+.left_navigation h1{
+	width: 100%;
+	height: 170px;
+}
+.left_navigation .p_box p{
+	width: 100%;
+	padding: 10px 0;
+	height: 30px;
+	text-align: center;
+}
+.left_navigation a{
+	color: white;
+	font:20px/30px "微软雅黑";
+}
+.foot{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+}
+.foot p{
+	margin: 10px 0 ;
+	color: white;
+}
+.foot p:nth-of-type(1){
+	height: 30px;
+}
+.right_content{
+	float: right;
+	width: 85%;
+	height: 100%;
+	background: url(../img/qianchuiwanzao.jpg) no-repeat;
+	background-size:cover ;
+	position: relative;
+}
+.close{
+	width: 40px;
+	height: 40px;
+	background: rgba(34,34,34,.7);
+	filter:alpha(opacity=70);
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 25px;
+	color: white;
+	cursor: pointer;
+}
+.text_box{
+	width:100%;
+	text-align: center;
+	color: white;
+	margin-top: 300px;
+	position: relative;
+}
+.text_box p:nth-of-type(1){
+	font-size: 60px;
+}
+.text_box p:nth-of-type(2){
+	font-size: 30px;
+}
+.next{
+	position: absolute;
+	left: 50%;
+	bottom:100px;
+	margin-left: -22px;
+}
+.two{
+	width: 85%;
+	float: right;
+	height: 100%;
+	background: rgba(34,34,34,.7);
+}
+.libox li{
+	float: left;
+	width: 350px;
+	height: 196px;
+	background: red;
+	margin:12px 18px;
+}
+.three{
+	float: right;
+	width: 85%;
+	height: 100%;
+	background:rgba(34,34,34,.7);
+	font-size:80px;
+	/*text-align: center;
+	 -webkit-background-clip:text;*/
+	 position: relative;
+	
+}
+.left_img{
+	width: 44%%;
+	height: 54%;
+	position: absolute;
+	left: 30px;
+	top:180px;
+}
+.left_img img{
+	width: 100%;
+	height: 100%;
+}
+.right_text{
+	width: 44%%;
+	height: 54%;
+	position: absolute;
+	right: 30px;
+	top:180px;
+	background: red;
+	z-index: 1;
+}
